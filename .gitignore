@@ -54,3 +54,11 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 
+
+# =======================    DBT     ========================
+target/
+dbt_packages/
+logs/
+# legacy -- renamed to dbt_packages in dbt v1
+dbt_modules/
+
